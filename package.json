@@ -1,0 +1,19 @@
+{
+  "name": "entrega-1-",
+  "version": "1.0.0",
+  "description": "proyeecto con sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoutinhoCamila/deweb-coutinho.git"
+  },
+  "author": "camila coutinho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CoutinhoCamila/deweb-coutinho/issues"
+  },
+  "homepage": "https://github.com/CoutinhoCamila/deweb-coutinho#readme"
+}
