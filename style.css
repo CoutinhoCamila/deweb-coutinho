@@ -144,7 +144,7 @@ button[type="submit"] {
     cursor: pointer; 
 }
 
-button[type="principales"] {
+button {
     border-radius: 50px; 
     padding: 10px 20px;
     background-color: #A70854; 
@@ -154,7 +154,7 @@ button[type="principales"] {
     margin: 10px;
 }
 
-button[type="principales"] {
+button {
     width: 20%; 
     display: block;
     margin-bottom: 5px;
