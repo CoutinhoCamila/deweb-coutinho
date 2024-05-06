@@ -1,20 +1,20 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
 
 @font-face {
-    font-family:IMFellFrenchCanonSC;
-    src: url(../entrega-1-/assets/fonts/IMFellFrenchCanonSC-Regular.ttf);
+  font-family: IMFellFrenchCanonSC;
+  src: url(../entrega-1-/assets/fonts/IMFellFrenchCanonSC-Regular.ttf);
 }
 
 @font-face {
-    font-family: MFellFrenchCanon;
-    src: url(../entrega-1-/assets/fonts/IMFellFrenchCanon-Regular.ttf);
+  font-family: MFellFrenchCanon;
+  src: url(../entrega-1-/assets/fonts/IMFellFrenchCanon-Regular.ttf);
 }
 
-  .menu ul{
+.menu ul{
     list-style: none;
     display: flex;
     padding: 20px 30px;
@@ -226,4 +226,3 @@ footer a {
 footer p {
     margin-top: 10px;
 }
-
