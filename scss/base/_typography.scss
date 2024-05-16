@@ -1,0 +1,30 @@
+h1, h5 {
+    font-size: $font-size-large;
+    color: $primary-color;
+    text-align: center;
+    margin-top: 30px;
+    font-family: $font-family-sc;
+  }
+  
+  h2, h3, h4, h6 {
+    text-align: center;
+    font-family: $font-family-se;
+    color: $primary-color;
+    margin-top: 30px;
+  }
+  
+  h3, h4 {
+    text-decoration: underline;
+    font-size: $font-size-large;
+  }
+  
+  h6 {
+    font-size: $font-size-medium;
+  }
+  
+  p {
+    font-family: $font-family-se;
+    text-align: justify;
+    margin-top: 30px;
+    font-size: $font-size-medium;
+  }

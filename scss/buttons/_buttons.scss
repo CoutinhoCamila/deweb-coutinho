@@ -1,0 +1,36 @@
+.buttons {
+    div {
+      flex-direction: column;
+      margin-bottom: 20px;
+    }
+  
+    button {
+      border-radius: $border-radius;
+      padding: 10px 30px;
+      background-color: $primary-color;
+      color: $text-color;
+      border: none;
+      display: block;
+      margin: 10px;
+      width: 250px;
+  
+      &:hover {
+        background-color: $hover-color;
+      }
+    }
+  }
+  
+  button {
+    border-radius: $border-radius;
+    padding: 10px 20px;
+    background-color: $primary-color;
+    color: $text-color;
+    border: none;
+    display: block;
+    margin: 10px;
+    width: 10%;
+  
+    &:hover {
+      background-color: $hover-color;
+    }
+  }

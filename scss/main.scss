@@ -1,7 +1,9 @@
-@import "utilities/variables";
-@import "base/reset";
-@import "base/fonts";
-@import "base/typography";
-@import "components/buttons";
-@import "layout/layout";
-@import "layout/header";
+@import 'base/base';
+@import 'base/fonts';
+@import 'base/typography';
+@import 'buttons/buttons';
+@import 'footer/footer';
+@import 'mixins/mixins';
+@import 'navbar/navbar';
+@import 'social-media/social-media';
+@import 'variables/variables';
