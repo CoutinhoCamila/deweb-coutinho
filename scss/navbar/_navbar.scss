@@ -1,69 +1,73 @@
 .navbar {
-    background-color: $secondary-color;
-    height: 80px;
-    margin: 50px 0;
-  
-    &-brand {
-      font-family: $font-family-sc;
-      font-weight: 500;
-      color: $primary-color;
-      font-size: 24px;
-      @include transition(color, 0.3s);
+  background-color: #cab2b2;
+  height: 80px;
+  margin: 50px 0;
+}
+
+.navbar-brand {
+  font-family: IMFellFrenchCanonSC;
+  font-weight: 500;
+  color: #a70854;
+  font-size: 24px;
+  @include transition(color);
+}
+
+.login-button {
+  font-family: IMFellFrenchCanonSC;
+  background-color: #a70854;
+  color: #fff;
+  font-size: 16px;
+  padding: 8px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  @include transition(background-color, color);
+
+  &:hover {
+    color: #f3d8e8;
+    text-decoration: none;
+  }
+}
+
+.navbar-toggler {
+  border: none;
+  font-size: 1.25rem;
+
+  &:focus,
+  .btn-close:focus {
+    box-shadow: none;
+    outline: none;
+  }
+}
+
+.nav-link {
+  font-family: IMFellFrenchCanon;
+  color: #a70854;
+  font-weight: 700;
+  position: relative;
+  @include transition(color);
+
+  &:hover {
+    color: #cc307b;
+  }
+
+  @media (min-width: 991px) {
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100%;
+      height: 2px;
+      background-color: #a70854;
+      visibility: hidden;
+      @include transition(visibility, 0.3s);
     }
-  
-    .login-button {
-      font-family: $font-family-sc;
-      background-color: $primary-color;
-      color: $text-color;
-      font-size: 16px;
-      padding: 8px 20px;
-      border-radius: $border-radius;
-      @include transition(background-color, 0.3s);
-      
-      &:hover {
-        color: lighten($primary-color, 30%);
-      }
-    }
-  
-    .navbar-toggler {
-      border: none;
-      font-size: 1.25rem;
-  
-      &:focus, .btn-close:focus {
-        box-shadow: none;
-        outline: none;
-      }
-    }
-  
-    .nav-link {
-      font-family: $font-family-se;
-      color: $primary-color;
-      font-weight: 700;
-      position: relative;
-  
-      &:hover {
-        color: $hover-color;
-      }
-  
-      @media (min-width: 991px) {
-        &::before {
-          content: "";
-          position: absolute;
-          bottom: 0;
-          left: 50%;
-          transform: translateX(-50%);
-          width: 100%;
-          height: 2px;
-          background-color: $primary-color;
-          visibility: hidden;
-          @include transition(visibility 0.3s ease-in-out, width 0.3s ease-in-out);
-        }
-  
-        &:hover::before,
-        &.active::before {
-          width: 100%;
-          visibility: visible;
-        }
-      }
+
+    &:hover::before,
+    &.active::before {
+      width: 100%;
+      visibility: visible;
     }
   }
+}

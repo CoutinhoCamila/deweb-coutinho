@@ -1,14 +1,25 @@
 footer {
-    text-align: center;
-    padding: 20px;
-    color: $primary-color;
-    margin-bottom: 10px;
-  
-    li, ul, a {
-      text-decoration: none;
-    }
-  
-    a {
-      color: $primary-color;
+  text-align: center;
+  padding: 20px;
+  color: #a70854;
+  margin-bottom: 10px;
+
+  a {
+    text-decoration: none;
+    color: #a70854;
+    @include transition(color);
+
+    &:hover {
+      color: #cc307b;
     }
   }
+
+  ul {
+    margin-bottom: 10px;
+    list-style: none;
+  }
+
+  li {
+    text-decoration: none;
+  }
+}

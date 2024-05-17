@@ -1,8 +1,14 @@
 .social-media {
-    text-align: center;
-  
-    .redes {
-      text-decoration: none;
-      margin: 0 25px;
+  text-align: center;
+
+  .redes {
+    text-decoration: none;
+    margin-left: 25px;
+    margin-right: 25px;
+    @include transition(transform);
+
+    &:hover {
+      transform: scale(1.1);
     }
   }
+}
